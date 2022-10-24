@@ -39,7 +39,7 @@ groups:
     for: 5m
     labels:
       severity: warning
-  name: 'loki_canaries_alerts',
+- name: 'loki_canaries_alerts',
   rules:
   - alert: 'LokiCanaryLatency',
     annotations:
